@@ -1,5 +1,6 @@
 public class Ejerc {
     public static void main(String[] args) {
+        //Ejercicio 1
         //guardar en variables a la familia y presentarlos
         System.out.println("Mi familia:");
 
@@ -26,11 +27,37 @@ public class Ejerc {
 
         char c = 'z'; //conviertelo a int
         int cI = c;
-        System.out.println(c);
-        //int i = 250; //conviertelo a long y luego de long a short
-        //double d = 301.067; //conviertelo a long
-        //int i = 100; //súmale 5000.66 y conviertelo a float
-        //int i = 737; //multiplícalo por 100 y conviertelo a byte
-        //double d = 298.638; //divídelo entre 25 y conviertelo a long
+        System.out.println("Resultado act 1 : " + cI);
+
+        int i = 250; //conviertelo a long y luego de long a short
+        long j = i;
+        short s = (short)j;
+        System.out.println("Resultado act 2 : " + s);
+
+        double d = 301.067; //conviertelo a long
+        long l = (long)d;
+        System.out.println("Resultado act 3 : " + l);
+
+        int i2 = 100;//súmale 5000.66 y conviertelo a float
+        float sumaFloat = i2 + 5000.66f;
+        System.out.println("Resultado act 4 : " + sumaFloat);
+
+        int i3 = 737; //multiplícalo por 100 y conviertelo a byte
+        byte b = (byte)(i3*100);
+        System.out.println("Resultado act 5 : " + b);
+
+        double d2 = 298.638; //divídelo entre 25 y conviertelo a long
+        long divisionD = (long)(d2/25);
+        System.out.println("Resultado act 6 : " + divisionD);
+
+        //Ejercicio 3
+        //
+        //Explica cómo distribuirías y crearías un ambiente de producción para un programa compilado con la versión 9 de Java.
+        //Incluye al menos dos Sistemas Operativos.
+
+        //Resp:
+        //Se debe tener descargados los JDKs en los cuales se compilará.
+        //Se tiene que configurar los JAVA_HOME en función de la versión que se utlizara.
+        //En el sistema operativo puede ser mac o windows, el procedimiento es el mismo.
     }
 }
