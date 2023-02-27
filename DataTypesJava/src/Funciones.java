@@ -15,6 +15,8 @@ public class Funciones {
         sphereVolumen(y);
 
         System.out.println("PESOS A DOLARES: " + converToDolar( 1000, "ARG"));
+
+
     }
 
     //las funciones se declaran en el mismo scope o nivel de la clase
@@ -32,6 +34,14 @@ public class Funciones {
         return (4/3) * Math.PI * Math.pow(r, 3);
     }
 
+
+    /**
+     * Descripción: Función que especificando su moneda, convierte una cantidad de dinero a dólares.
+     *
+     * @param quantity Cantidad de dinero
+     * @param currency Tipo de moneda: Solo acepta ARG o MXN
+     * @return quantity Devuelve la cantidad actualizada en dólares
+     * */
     public static double converToDolar(double quantity, String currency){
      switch (currency){
          case "MXN":
