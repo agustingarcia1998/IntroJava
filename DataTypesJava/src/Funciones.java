@@ -21,7 +21,7 @@ public class Funciones {
 
     //las funciones se declaran en el mismo scope o nivel de la clase
     //static aplica en métodos que comparten el método main
-    //double es mi valor de regreso
+    //double es mi valor de regreso.
     public static double circleArea(double r){
         return Math.PI * Math.pow(r, 2);
     }
