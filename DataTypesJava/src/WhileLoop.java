@@ -16,7 +16,7 @@ public class WhileLoop {
         System.out.println(". . . _ _ _ . . .");
     }
 
-    public static boolean turnOnOffLight(){
+    public static boolean  turnOnOffLight(){
         isTurnOnLight = (isTurnOnLight)?false:true;
        return isTurnOnLight;
     }
